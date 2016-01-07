@@ -1,0 +1,15 @@
+<div class="home-section container center">
+		<div class="row center">
+			<!-- display links to other pages in hexagons -->
+			<a info-hex ng-repeat="page in pages" hex-link="#/{{page.name}}">
+				<span class="center">{{page.name}}</span>
+			</a>
+		</div>
+
+		<div class="row center">
+			<div id="home-text">
+				<h1>Andy Tran</h1>
+				<h3>Business Analyst | Developer</h3>
+			</div>
+		</div>
+</div>

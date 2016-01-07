@@ -1,0 +1,566 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"portfolio",
+				"portfolioControllers"
+			],
+			[
+				"transa",
+				"translateY"
+			],
+			[
+				"translat",
+				"translateY"
+			],
+			[
+				"hex-",
+				"hex-side2"
+			],
+			[
+				"hex",
+				"hex-side1"
+			],
+			[
+				"hexside",
+				"hex-side2"
+			],
+			[
+				"get",
+				"getData"
+			],
+			[
+				"item",
+				"item"
+			],
+			[
+				"smooth",
+				"smoothScroll"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"fnc",
+				"functions"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"1px",
+				"1px"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"autopre",
+				"Autoprefix CSS"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"autop",
+				"Autoprefix CSS"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lore	",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"snipp	",
+				"Snippet: html"
+			],
+			[
+				"	",
+				"Autoprefix CSS"
+			],
+			[
+				"snippet ",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet:	",
+				"Snippet: html"
+			],
+			[
+				"convert",
+				"Convert Case: Lower Case"
+			],
+			[
+				"css ",
+				"Set Syntax: CSS"
+			],
+			[
+				"snippet lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Andy Tran/Desktop/Web/default.sublime-workspace",
+		"/C/Users/Andy Tran/Desktop/Web/default.sublime-project",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/css/custom.css",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/js/app.js",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/js/infoContainer.html",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/js/infoHex.html",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/partials/works.html",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/index.html",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/partials/home.html",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/partials/about.html",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/partials/contact.html",
+		"/C/Users/Andy Tran/Desktop/Web/Complete/ngToDo/css/custom.css",
+		"/C/Users/Andy Tran/Desktop/Web/Complete/ngToDo/js/app.js",
+		"/C/Users/Andy Tran/Desktop/Web/Complete/ngToDo/index.html",
+		"/C/Users/Andy Tran/Desktop/Web/Complete/Brandi/js/js.js",
+		"/C/Users/Andy Tran/AppData/Roaming/Sublime Text 2/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/C/Users/Andy Tran/AppData/Roaming/Sublime Text 2/Packages/User/Autoprefixer.sublime-settings",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/css/bootstrap.min.css",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/browserconfig.xml",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/manifest.json",
+		"/C/Users/Andy Tran/Desktop/Web/Snippets&Test/angular-phonecat/app/js/controllers.js",
+		"/C/Users/Andy Tran/Desktop/Web/Snippets&Test/angular-phonecat/app/js/app.js",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/css/css_reset.css",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/css/normalize.css",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/js/infoBox.html",
+		"/C/Users/Andy Tran/Desktop/Web/Snippets&Test/angular-phonecat/app/index.html",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/js/modal.html",
+		"/C/Users/Andy Tran/Desktop/Web/Snippets&Test/angular-phonecat/app/partials/phone-list.html",
+		"/C/Users/Andy Tran/Desktop/Web/Snippets&Test/angular-phonecat/app/partials/phone-detail.html",
+		"/C/Users/Andy Tran/Desktop/Web/Snippets&Test/angular-phonecat/app/js/services.js",
+		"/C/Users/Andy Tran/Desktop/Web/Snippets&Test/angular-phonecat/app/js/directives.js",
+		"/C/Users/Andy Tran/Desktop/Web/Snippets&Test/angular-phonecat/app/js/filters.js",
+		"/C/Users/Andy Tran/Desktop/Web/project_skel/index.html",
+		"/C/Users/Andy Tran/Desktop/Web/Complete/Brandi/index.html",
+		"/C/Users/Andy Tran/Desktop/Web/Hexagon/js/app,js",
+		"/C/Users/Andy Tran/Desktop/html/messages.htm",
+		"/C/Users/Andy Tran/Desktop/Web/Assets/bootstrap-3.3.5-dist/css/bootstrap.css",
+		"/C/Users/Andy Tran/Desktop/Web/Complete/Brandi/css/main.css",
+		"/C/Users/Andy Tran/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Andy Tran/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Andy Tran/Desktop/Web/project_skel/js/custom.js",
+		"/C/Users/Andy Tran/Desktop/Web/project_skel/css/custom.css",
+		"/C/Users/Andy Tran/Desktop/Web/ngToDo/js/app.js",
+		"/C/Users/Andy Tran/Desktop/Web/ngToDo/css/custom.css",
+		"/C/Users/Andy Tran/Desktop/Web/ngToDo/index.html",
+		"/C/Users/Andy Tran/Desktop/Web/Assets/css_reset.css",
+		"/C/Users/Andy Tran/Desktop/Web/Brandi/index.html",
+		"/C/Users/Andy Tran/Desktop/Web/Brandi/css/main.css",
+		"/C/Users/Andy Tran/Desktop/Web/Assets/bootstrap-3.3.5-dist/css/bootstrap-theme.css",
+		"/C/Users/Andy Tran/Desktop/Web/Assets/bootstrap-3.3.5-dist/css/bootstrap.css.map",
+		"/C/Users/Andy Tran/Desktop/Web/ngToDo/css/bootstrap.min.css",
+		"/C/Users/Andy Tran/Desktop/Web/Brandi/css/12col.css",
+		"/C/Users/Andy Tran/Desktop/Web/Brandi/js/js.js",
+		"/C/Users/Andy Tran/Desktop/Web/Brandi/css/response.css",
+		"/E/Dropbox/Fuji/Fuji-Brandi/index.html",
+		"/E/Dropbox/Fuji/Fuji-Brandi/css/main.css",
+		"/C/Users/Andy Tran/Desktop/Web/bootstrap-3.3.5-dist/css/bootstrap.css",
+		"/C/Users/Andy Tran/Desktop/Web/bootstrap-3.3.5/docs/examples/signin/index.html",
+		"/C/Users/Andy Tran/Desktop/Web/bootstrap-3.3.5/docs/css.html",
+		"/C/Users/Andy Tran/Desktop/Web/bootstrap-3.3.5/docs/about.html",
+		"/E/Dropbox/Fuji/angular-todo/index.html",
+		"/E/Dropbox/Fuji/angular-todo/js/app.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/js/controllers.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/index.html",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/js/app.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/partials/phone-list.html",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/js/filters.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/js/services.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/partials/phone-detail.html",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/js/animations.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/css/animations.css",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/js/directives.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/phones/phones.json",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/phones/dell-streak-7.json",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/phones/samsung-galaxy-tab.json",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/phones/lg-axis.json",
+		"/E/Dropbox/Fuji/angular-todo/README.md",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/phones/dell-venue.json",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/package.json",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/phones/motorola-xoom-with-wi-fi.json",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/bower_components/angular-route/angular-route.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/app/css/app.css",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/test/unit/controllersSpec.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/test/unit/directivesSpec.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/test/karma.conf.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/node_modules/karma-firefox-launcher/package.json",
+		"/C/Users/Andy Tran/Desktop/Web/Test_Tutorial/angular-phonecat/node_modules/karma-firefox-launcher/index.js",
+		"/E/Dropbox/Fuji/angular-todo/css/style.css",
+		"/C/Users/Andy Tran/Desktop/Web/Test/Slider/js.js",
+		"/C/Users/Andy Tran/Desktop/Web/Test/Slider/index.html",
+		"/E/Programs/XAMPP/htdocs/css/main.css",
+		"/E/Programs/XAMPP/htdocs/index.html",
+		"/E/Programs/XAMPP/htdocs/js/js.js",
+		"/E/Dropbox/Fuji/Fuji-Brandi/js/isotope.min.js",
+		"/E/programs/xampp/htdocs/js/js.js",
+		"/E/Dropbox/Web/Finished/Brandi/js/js.js",
+		"/E/programs/xampp/htdocs/css/response.css",
+		"/C/Users/Andy Tran/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Andy Tran/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Andy Tran/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/E/Dropbox/Fuji/Andy-Brandi/css/main.css",
+		"/E/Dropbox/Fuji/Andy-Brandi/css/response.css",
+		"/E/Dropbox/Fuji/Andy-Brandi/js/js.js",
+		"/E/Dropbox/Fuji/Andy-Brandi/index.html",
+		"/C/Users/Andy Tran/Desktop/Web/css_reset.css",
+		"/C/Users/Andy Tran/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/E/Dropbox/Fuji/Andy-Brandi/css/12col.css",
+		"/C/Users/ANDYTR~1/AppData/Local/Temp/Rar$DRa0.343/img hover/css.css",
+		"/C/Users/ANDYTR~1/AppData/Local/Temp/Rar$DRa0.876/img hover/index.html",
+		"/C/Users/ANDYTR~1/AppData/Local/Temp/Rar$DRa0.762/img hover/css.css",
+		"/C/Users/ANDYTR~1/AppData/Local/Temp/Rar$DRa0.509/img hover/index.html",
+		"/C/Users/ANDYTR~1/AppData/Local/Temp/Rar$DRa0.390/img hover/css.css",
+		"/C/Users/ANDYTR~1/AppData/Local/Temp/Rar$DRa0.107/img hover/css.css",
+		"/C/Users/ANDYTR~1/AppData/Local/Temp/Rar$DRa0.250/img hover/index.html",
+		"/C/Users/ANDYTR~1/AppData/Local/Temp/Rar$DRa0.104/img hover/index.html",
+		"/C/Users/ANDYTR~1/AppData/Local/Temp/Rar$DRa0.250/img hover/css.css",
+		"/C/Users/Andy Tran/AppData/Local/Temp/Rar$DIa0.013/css.css",
+		"/C/Users/ANDYTR~1/AppData/Local/Temp/Rar$DRa0.663/img hover/index.html",
+		"/E/Dropbox/Fuji/css.css",
+		"/E/Dropbox/Fuji/index.html",
+		"/E/Dropbox/Fuji/Andy-Brandi/css/font-awesome.css",
+		"/E/Dropbox/Web/Stuff from RBC/Web/Web/Test/index.html",
+		"/E/Dropbox/Web/Stuff from RBC/Web/Web/Test/css.css",
+		"/C/Users/Andy Tran/Desktop/Web/Fonts/font-awesome-4.4.0/css/font-awesome.min.css",
+		"/C/Users/Andy Tran/Desktop/Web/Fonts/font-awesome-4.4.0/css/font-awesome.css",
+		"/E/Dropbox/Fuji/Andy-Brandi/fonts/fontawesome-webfont.ttf",
+		"/C/Users/Andy Tran/Desktop/Web/Skeleton/index.html",
+		"/C/Users/Andy Tran/Desktop/Web/asd.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"url",
+			"url:",
+			"25%, -13%",
+			"-25%, -13%",
+			"Touch",
+			"wrapper",
+			"chgHeight",
+			":\"",
+			"url:\"\"",
+			"'$scope'",
+			"scope",
+			"absolute",
+			"[",
+			"url:\"\"",
+			"url:",
+			"url:\"\"",
+			"</h2>\n				<p>",
+			"{name:\"\"}",
+			"**********/",
+			"/********************",
+			"/******************************",
+			"/**********",
+			"></a",
+			"><",
+			"<a",
+			"</li",
+			"<li",
+			"<li>",
+			"<span class=\"highlight\">Background</span>: ",
+			"1D2D44",
+			"span",
+			"*/",
+			"/*",
+			":",
+			" ;",
+			" {",
+			"em",
+			".slide",
+			"center",
+			"-container",
+			".row",
+			"div class=\"hex\"",
+			"<a ",
+			"/a>",
+			"#main",
+			"class=\"center\"",
+			"<a ",
+			"span",
+			"<span",
+			"name:",
+			"name",
+			"thisav",
+			"ico",
+			"s=\"\"",
+			"=\"\"",
+			"hex\">",
+			"update",
+			"border-box",
+			"ico",
+			"nav",
+			"<button",
+			"opacity: 1;",
+			":-100px; ",
+			"opacity: 0;",
+			"getY",
+			"gety",
+			"ops",
+			"smoo",
+			"scrollTo",
+			"onclick=\"\"",
+			"onclick",
+			"=\"\">",
+			"box-",
+			"transition",
+			"transform",
+			"translate",
+			"left",
+			"settime",
+			"z-ind",
+			"z-",
+			".container",
+			"class=\"imgWrap\"",
+			"container",
+			"\"/",
+			"currImg",
+			"branding",
+			"Branding",
+			"branding",
+			"position:rel",
+			".contain",
+			"social",
+			"font-size:14px",
+			"select_",
+			"abc",
+			"indent",
+			"<div class =\"center\">\n							<p>Lorem i",
+			".cent",
+			"header",
+			"p{",
+			"social",
+			"col-9",
+			"80",
+			"%;",
+			"f2",
+			"f1",
+			"text-al",
+			"text-",
+			"section-",
+			"section-ti",
+			"<p>",
+			"<p",
+			"<h3>Text</h3>",
+			"png\">",
+			"h1",
+			"h2",
+			"h3",
+			"=\"col-3\">",
+			"\"icon",
+			"class=\"col-",
+			"-3\">",
+			"l-3\">",
+			".icon",
+			"icon\">",
+			"on\">",
+			"\">",
+			"n\">",
+			"=\"col-3\"",
+			"\n			\n\n\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"****************************************/",
+			"/****************************************",
+			"/********************",
+			"**********/",
+			"/**********",
+			".test",
+			"",
+			"font-size: .9em",
+			"select_work",
+			"hoverBox",
+			"",
+			"class=",
+			"\"",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.487083735453,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/E/Dropbox/Web/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 295.0,
+	"status_bar_visible": true
+}

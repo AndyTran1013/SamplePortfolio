@@ -1,0 +1,23 @@
+<div info-container redirect-Url="#/Home" class="contact-section center">
+	<div class="row">
+		<h1>Drop Me a Message!</h1>
+
+		<form name="emailForm">
+			<div class="form-group">
+				<label for="contact-name">Name:</label>
+				<input type="text" class="form-control" id="contact-name" ng-model="contactName" placeholder="Name" autocomplete="off" required/>
+			</div>
+
+			<div class="form-group">
+				<label for="contact-email">Email:</label>
+				<input type="email" class="form-control" id="contact-email" ng-model="contactEmail" placeholder="Email" autocomplete="off" required/>
+			</div>
+
+			<div class="form-group">
+				<label for="contact-msg" required>Message</label>
+				<textarea class="form-control" rows="5" id="contact-msg" ng-model="contactMsg" required></textarea>
+				<button type="submit" class="btn btn-primary btn-send" ng-disabled="emailForm.$invalid">Submit</button>
+			</div>
+		</form>
+	</div>
+</div>
