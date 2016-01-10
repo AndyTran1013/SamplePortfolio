@@ -5,7 +5,6 @@
 	position:relative;
 	width: 200px; /*default size*/
 	background: #000 center/cover no-repeat;
-	margin: 0 1.25%;
 }
 
 .hex:last-child{
@@ -85,19 +84,21 @@
 	position:relative;
 	width:90%;
 	margin:0 5%;
-	height: 80%;
 	background-color: #FFF;
 	box-shadow: 0 0 100px 20px #0D1321;
+	padding: 3em 0;
 }
 
+
 .info-close{
-	position:absolute;
-	right:0;
+	position: absolute;
+	top: 0;
+	right: 0;
 	font-size: 1.5em;
-	color:#1D2D44;
+	color: #1D2D44;
 	padding: 10px 15px;
-	background-color:inherit;
-	border:none;
+	background-color: inherit;
+	border: none;
 	margin-bottom:10px;
 }
 
@@ -141,7 +142,7 @@
 /****************************************Common to all views****************************************/
 
 body{
-	background:url("../images/main.jpg") 90% 70%/cover no-repeat fixed;
+	background:"";
 	height: 100vh;
 }
 
@@ -158,63 +159,57 @@ body{
 	text-align: center;
 }
 
-
 ul{
 	padding-left: 0;
 }
 
-
-
-/****************************************home page****************************************/
-#view-container .home-section{
-	height: 500px;
-	color: #FFF;
-}
-
-.home-section .hex{
-	opacity: 0.7;
-	background-color:#1D2D44;
-	font-size:2em;
-}
-
-.home-section .hex:hover{
-	opacity:0.9;
-	cursor: pointer;
-}
-
-.home-section > .row > .hex:nth-child(even){
-	-webkit-transform: translateY(-100%);
-	        -ms-transform: translateY(-100%);
-	    transform: translateY(-100%);
-}
-
-#home-text{
-	-webkit-transform: translateY(50%);
-	        -ms-transform: translateY(50%);
-	    transform: translateY(50%);
-}
-
-.home-section h1{
-	font-size: 5em;
-	letter-spacing: 5px;
-}
-
-.home-section h3{
-	font-size:1.2em;
-	letter-spacing: 3px;
-	margin: 0.5em 0;
-}
-
-/****************************************about page****************************************/
-.about-section > .container-fluid{
+.home-section, .about-section > .container-fluid{
 	display: table;
 }
 
-.about-section div[class*= "col-"]{
+.home-section div[class*= "col-"], .about-section div[class*= "col-"]{
 	display: table-cell;
 	vertical-align: middle;
 	float: none;
 }
+
+
+/****************************************home page****************************************/
+#view-container .home-section{
+	text-align: left;
+	letter-spacing: 8px;
+}
+
+#logo{
+	width: 100%;
+}
+
+.home-section h1, .home-section h2{
+	letter-spacing: 8px;
+}
+
+.home-section h1{
+	font-size: 7em;	
+}
+
+.home-section h2{
+	font-size: 2em;
+
+}
+
+nav{
+	position: absolute;
+	bottom: 2em;
+}
+
+nav > ul li{
+	font-size: 1.5em;
+	padding-right: 1em;
+	display:inline-block;
+}
+
+/****************************************about page****************************************/
+
 
 .profile-pic{
 	width: 60%;
@@ -284,24 +279,25 @@ ul{
 
 /****************************************works page****************************************/
 
+.works-section{
+	padding-bottom: 100px;
+}
+
 .works-wrapper{
 	position:relative;
-	height: 100%;
+	width: 15%;
 	margin: 0 2em;
 	display:inline-block;
 }
 
-.works-wrapper{
-	width: 15%;
-}
 
 .works-wrapper [info-hex]{
 	width: 100%;
 }
 
 
-.works-wrapper:nth-child(even){
-	top: -80px;
+.works-wrapper:nth-child(odd){
+	top: 50px;
 }
 
 .works-wrapper h2{
@@ -332,8 +328,11 @@ ul{
 .contact-section{
 	margin: 0;
 	width: initial;
-	padding: 0 5em;
 	display: inline-block;
+}
+
+.contact-section .ng-transclude{
+	padding: 0 5em;
 }
 
 .contact-section h1{ /* same as "name class" in about section-->change it to another class*/
@@ -344,10 +343,6 @@ ul{
 
 }
 
-.contact-section form{
-	margin: 1em 0;
-	display:inline-block;
-}
 
 .contact-section .form-group{
 	text-align: left;
@@ -356,12 +351,13 @@ ul{
 .contact-section input[type="email"], .contact-section input[type="text"],
 .contact-section textarea{
 	margin: 0.5em 0;
-	width:  500px;
+	max-width:  500px;
+	width: 100%;
 }
 
 .contact-section textarea{
 	resize: vertical;
-	max-height: 300px;
+	max-height: 250px;
 }
 
 .contact-section .btn-send{
@@ -375,7 +371,26 @@ ul{
  *************************************************************
  */
 
+@media (max-width: 500px){
 
-@media (max-width: 768px){
-	
+	.home-section h1{
+		font-size: 3.5em;
+	}
+
+	.home-section .hex{
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 680px){
+	.home-section > .row .hex{
+		max-width: 30%;
+	}
+
+}
+
+@media (max-width: 680px) and (max-aspect-ratio:1/1){
+	#home-text{
+		transform: translateY(25%);
+	}
 }

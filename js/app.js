@@ -115,21 +115,18 @@ angular.module("infoDirectives",[])
 			transclude: true,
 			templateUrl: "js/infoHex.html",
 			scope:{
-				hexLink: '@',
-				hexWrap: '='
+				hexLink: '@'
 			},
 			link: function(scope,el){
 			//dynamically resize hexagons
 			function setHeight(){
 					var h = Math.ceil(el[0].offsetWidth * Math.tan(30*Math.PI/180)); //height
+
 					el.css("height", h + "px");
-					if (scope.hexWrap){ //make wrap entire hexagon element in box-model, not just center rectangle
-						el.css({
-						"margin-top": h / 2 + "px",
-						"margin-bottom": h / 2 + "px"
-						});
-					}
-					return 1;
+					el.css({ 	//make wrap entire hexagon element in box-model, not just center rectangle
+					"margin-top": (h / 2 + 2.5) + "px",
+					"margin-bottom": (h / 2 + 2.5) + "px"
+					});
 				}
 
 			var heightTimer;
