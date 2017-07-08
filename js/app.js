@@ -27,14 +27,29 @@ app.config(["$routeProvider",
 	}]);
 
 angular.module("portfolioControllers",[])
-	.controller("routeCtrl", ["$scope","$location", function($scope,$location){
-		$scope.showNav =function (){return $location.path() !=="/Home";};
+	.controller("navigationCtrl", ["$scope","$location", function($scope,$location){
 
 		$scope.pages = [
+			{name: "Home"},
 			{name: "About"},
 			{name: "Works"},
 			{name: "Contact"}
 		];
+
+		$scope.showNav = function (){
+			return $location.path() !== "/Home";
+		};
+
+		$scope.homeNav = function(){
+			return $scope.pages.filter(function(page){
+				return page.name !== $location.path().slice(1);
+			});
+		};
+
+		$scope.isActive = function(page){
+			return $location.path() == "/" + page;
+		};
+
 	}])
 
 	.controller("aboutCtrl", ["$scope", function($scope){
@@ -83,31 +98,6 @@ angular.module("portfolioControllers",[])
 
 /*temporary place for directives*/
 angular.module("infoDirectives",[])
-	.directive("infoContainer", function(){
-		return {
-			restrict: "AE",
-			replace: true,
-			transclude: true,
-			templateUrl: "js/infoContainer.html",
-			scope: {
-				redirectUrl: "@"
-			},
-			link: function(scope,el){
-				var homeBtn = document.querySelector(".info-close");
-				
-				angular.element(homeBtn).on("click",function(){
-						window.location = scope.redirectUrl;
-				});
-
-				angular.element(document).on("keyup",function(event){
-					if (event.which === 27){
-						window.location = scope.redirectUrl;
-					}
-				});
-			}
-		};
-	})
-
 	.directive("infoHex", ["$window","$timeout", function($window, $timeout){
 		return {
 			restrict: "AE",

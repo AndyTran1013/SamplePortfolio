@@ -14,18 +14,18 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	<title>Hexal</title>
+	<title>Andy Tran</title>
 </head>
 
-<body ng-controller="routeCtrl">
-
-
-<!--  	<nav ng-show="showNav()">
-		<div info-hex hex-wrap="true" ng-repeat="page in pages">
-			<span>{{page.name}}</span>
-		</div>
-	</nav>  -->
-
+<body ng-controller="navigationCtrl">
+	<nav class="navbar navbar-default navbar-fixed-top" id="main-nav" ng-show="showNav()">
+		<ul class="nav navbar-nav">
+			<li ng-repeat="page in pages" >
+				<a ng-class="{'lnk-line': !isActive(page.name), 'active': isActive(page.name)}" ng-href="#/{{page.name}}">{{page.name}}</a>
+			</li>
+		</ul>
+	</nav>
+	
 	<div class="view-ani" id="view-container" ng-view></div>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
